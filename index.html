@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dilcuyy - Blog</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/spider.png"
+      type="image/x-icon"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <!-- Js -->
+    <script src="./assets/js/index.js"></script>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Icons CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg fixed-top bb-on bg-transparent " id="navbar">
+      <div class="container">
+        <a class="navbar-brand fw-medium fs-2" href="#">Dilcuy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onclick="addBackground();"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav fs-5">
+            <li class="nav-underline">
+              <a class="nav-link" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-underline">
+              <a class="nav-link text-dark" href="#project">Projects</a>
+            </li>
+            <li class="nav-underline">
+              <a class="nav-link text-dark" href="#contact">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Of Nav -->
+    
+    <!-- Home -->
+    <section class="about" id="about">
+      <div class="container-fluid">
+        <div class="row justify-content-evenly align-items-center gap-3 px-2">
+          <div
+            class="col-lg-1 order-3 order-lg-0 d-flex flex-lg-column justify-content-center gap-4 fs-2 text-center"
+          >
+            <a
+              href="https://www.instagram.com/a.dilasy/"
+              class="icon-link icon-link-hover text-decoration-none text-black-50"
+            >
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a
+              href="https://twitter.com/dil_1907"
+              class="icon-link icon-link-hover text-decoration-none text-black-50"
+            >
+              <i class="bi bi-twitter-x"></i>
+            </a>
+            <a
+              href="https://github.com/dilcuyy"
+              class="icon-link icon-link-hover text-decoration-none text-black-50"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+          </div>
+          <div
+            class="col-lg-5 p-3 order-1 order-lg-1 text-center text-lg-start"
+          >
+            <h1>Halo!</h1>
+            <h2 class="display-2 py-2 fw-medium">
+              My Name is
+              <span class="typing"> Abdilaa.</span>
+            </h2>
+            <p class="fs-5 text-black-50">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              fugit quia, explicabo maiores, natus ad earum, veniam aliquam iste
+              optio placeat. Quis eveniet expedita minima, quod adipisci et
+              nobis exercitationem omnis magnam illum quae, nisi ipsam!
+              Pariatur, reiciendis suscipit fugit non tempora nesciunt voluptas
+              repellat aliquid, cupiditate dignissimos corrupti?.
+            </p>
+            <div
+              class="d-flex gap-3 justify-content-center justify-content-lg-start"
+            >
+              <a href="#contact">
+              <button class="btn btn-dark fs-5">Say something</button>
+              </a>
+              <a href="#project">
+              <button class="btn btn-outline-dark fs-5" >Read more...</button>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-9 col-lg-4 order-0 order-lg-2 px-2">
+            <img
+              src="./assets/img/Logo.gif"
+              class="about-img w-100 img-fluid rounded-circle"
+              alt="photo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of Home -->
+
+    <!-- Project Section -->
+    <section class="project" id="project">
+      <div class="container">
+        <h1 class="h1 fw-bold text-center p-1 mb-5">
+          <span class="text-warning">My</span> Projects
+        </h1>
+
+        <div class="row justify-content-center align-items-center mx-3 gap-3">
+          <div class="col-sm-5 col-lg-3 px-0 card">
+            <img
+              src="./assets/img/project-1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text text-black-50">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio sint cumque voluptates tempora, omnis libero?
+              </p>
+              <a href="https://dilcuyy.github.io/Abdila_Web/">
+              <div class="btn btn-dark">
+                <i class="bi bi-arrow-bar-right"></i> Check Now
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-5 col-lg-3 px-0 card">
+            <img
+              src="./assets/img/project-1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text text-black-50">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio sint cumque voluptates tempora, omnis libero?
+              </p>
+              <a href="https://dilcuyy.github.io/Abdila_Web/">
+              <div class="btn btn-dark">
+                <i class="bi bi-arrow-bar-right"></i> Check Now
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-5 col-lg-3 px-0 card">
+            <img
+              src="./assets/img/project-1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text text-black-50">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio sint cumque voluptates tempora, omnis libero?
+              </p>
+              <a href="https://dilcuyy.github.io/Abdila_Web/">
+              <div class="btn btn-dark">
+                <i class="bi bi-arrow-bar-right"></i> Check Now
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+    <!-- End of Project Section -->
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1 class="h1 fw-bold text-center p-1 mb-5">
+          <span class="text-warning">Contact</span> Me
+        </h1>
+
+        <div class="row justify-content-center align-content-center mx-3 gap-5">
+          <div class="col-lg-5 px-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d495.7521338250069!2d106.983159027253!3d-6.261481270974718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1698645647825!5m2!1sid!2sid" 
+              class="w-100 rounded-3"
+              height="515"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+          </div>
+          <div class="col-lg-6 p-5 border border-black bg-dark rounded-3">
+            <form class="mb-3" action="https://formspree.io/f/xnqkwkdz" method="post">
+              <label for="formGroupExampleInput" class="form-label text-white"
+                >Full Name</label
+              >
+              <input
+                type="text" 
+                id="username" 
+                class="form-control py-3"
+                id="formGroupExampleInput"
+                placeholder="Tulis nama lo"
+                name="username" required
+              />
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label text-white"
+                  >Email</label
+                >
+                <input
+                  type="text"
+                  id="email" 
+                  class="form-control py-3"
+                  id="formGroupExampleInput2"
+                  placeholder="Email lo"
+                  name="email" required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="floatingTextarea2" class="form-label text-white"
+                  >Comments</label
+                >
+                <input
+                  type="text"
+                  id="comment"
+                  class="form-control"
+                  placeholder="ngomong apa aja"
+                  id="floatingTextarea2"
+                  style="height: 120px"
+                  name="comment" required
+                />
+              </div>
+              <button class="w-100 btn btn-warning text-white" type="submit">Kirim</button>
+            </form>
+          </div>
+      </div>
+    </section>
+    <!-- End ofContact Section -->
+
+    <!-- Footer -->
+    <footer id="footer" class="bg-dark">
+      <div class="d-flex flex-column">
+        <div class="social-media d-flex justify-content-center gap-3 mb-3">
+          <a href="https://wa.me/6289517939138" class="text-decoration-none">
+            <i class="bi bi-whatsapp text-white fs-4"></i
+          ></a>
+          <a href="https://www.instagram.com/a.dilasy/" class="text-decoration-none">
+            <i class="bi bi-instagram text-white fs-4"></i
+          ></a>
+          <a href="https://www.threads.net/@a.dilasy" class="text-decoration-none">
+            <i class="bi bi-threads text-white fs-4"></i
+          ></a>
+        </div>
+        <div class="menu d-flex justify-content-center gap-3 mb-3">
+          <a href="#about" class="text-decoration-none text-white">About</a>
+          <a href="#project" class="text-decoration-none text-white"
+            >Projects</a
+          >
+          <a href="#contact" class="text-decoration-none text-white"
+            >Contacts</a
+          >
+        </div>
+        <div class="credit">
+          <p class="text-center text-white">
+            Ngobar Himasif | &copy; Copyright 2023
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+  </body>
+</html>
